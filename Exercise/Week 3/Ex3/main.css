@@ -1,0 +1,16 @@
+#colortext{
+    color: black;
+}
+#a{
+    color: red;
+}
+body{ 
+    background-color: #EEFFFF;
+    height: 400px;
+    width:350px;
+    margin-left: 400px;
+	
+}
+li{
+    color:red;
+}

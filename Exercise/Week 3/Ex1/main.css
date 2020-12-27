@@ -1,0 +1,42 @@
+body {
+	background:#c2845b;
+	font-family: "Verdana";
+}
+header {
+	background:pink;
+	text-align:center;
+
+}
+nav {
+	border:1px solid black;
+	padding:15px;
+	width:75%;
+}
+ul {
+    list-style-type: none;
+	text-align: center;
+	display: inline;
+}
+button{
+	color:blue;
+	background:yellow;
+}
+header {
+	text-align: center;
+}
+h1 {
+	color:red;
+	font: Arial;
+}
+h2 {
+	color:white;
+}
+h3 {
+	color:white;
+	font:Courier New;
+}
+h4 {
+	background:yellow;
+	text-align:center;
+	border-style: dotted;
+}

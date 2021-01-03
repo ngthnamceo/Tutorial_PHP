@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+	<head>
+		<title>Exercise 2</title>
+		<meta charset="UTF-8">
+
+	</head>
+	<body>
+		<p id="demo"></p>
+		1st Number: <input type="numner" id="soa" /><br>
+		2nd Number: <input type="number" id="sob" /><br>
+		<input type="button" value="Result" onClick="btn()" />
+		
+		
+		<script>
+			function btn(){
+				var a = document.getElementById("soa").value;
+				var b = document.getElementById("sob").value;
+				if(a > b) {
+					 document.write(a);
+				} else {
+					document.write(b);
+				}
+			}
+				document.getElementById("demo").innerHTML = result;
+		</script>
+	</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+	<head>
+		<title>Exercise 1</title>
+		<meta charset="UTF-8">
+
+	</head>
+	<body>
+		1st Number: <input type="numner" id="soa" /><br>
+		2nd Number: <input type="number" id="sob" /><br>
+		<input type="button" value="Mutiply" onClick="mutiply()" />
+		<input type="button" value="Divide" onClick="divide()" /><br>
+		The Result Is:
+		<div id="result"></div>
+		<script>
+			function mutiply() {
+				var a = document.getElementById("soa").value;
+				var b = document.getElementById("sob").value;
+				c = parseInt(a) * parseInt(b);
+				document.getElementById("result").innerHTML = a + " * " + b + " = " + c;
+				
+			}
+			function divide() {
+				var a = document.getElementById("soa").value;
+				var b = document.getElementById("sob").value;
+				c = parseFloat(a) / parseFloat(b);
+				document.getElementById("result").innerHTML = a + " / " + b + " = " + c;
+				
+			}
+		</script>
+	</body>
+</html>

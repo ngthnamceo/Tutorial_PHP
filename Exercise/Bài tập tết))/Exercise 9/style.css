@@ -32,7 +32,7 @@
     margin-bottom: 12px;
 }
 .content-text{
-    /* padding: 12px 0 0 0; */
+    
     font-size: 13px;
     line-height: 1.6;
 }
@@ -47,7 +47,7 @@
     font-style:italic;
     font-size: 13px;
     margin-top: 29px;
-    /* margin-bottom: 12px; */
+ 
 }
 .bold-text{
     font-weight:bold;

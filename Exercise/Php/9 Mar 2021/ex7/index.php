@@ -3,7 +3,7 @@
     <?php
         for($i=1 ;$i<=10; $i++){
             echo '<div class="row w-75 m-auto border">';
-            for($j=1;$j<=10;$j++){
+            for($j=1;$j<=8;$j++){
                 if($i % 2 == 0){
                     if($j % 2 == 0){
                         echo '<div class="col bg-white p-3"></div>';
